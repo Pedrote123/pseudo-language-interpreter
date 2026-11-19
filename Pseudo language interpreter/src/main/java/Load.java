@@ -9,6 +9,8 @@ public class Load {
         }
     }
 
+
+    //Crear la carpeta en documentos y llamar a la creacion de la base de datos con ese path
     static Boolean baseExists() {
         /*
         Path folderPath = Path.get("");
