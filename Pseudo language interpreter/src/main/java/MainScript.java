@@ -1,4 +1,5 @@
 import database.DataBaseInteraction;
+import textProcessing.TextCheck;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -13,7 +14,9 @@ class MainScript{
 
         //DataBaseInteraction.addRelationship("Ramon", "Jose", 5);
         //DataBaseInteraction.removeRelationship("Ramon", "Jose");
-        DataBaseInteraction.changeRelationshipValue("Ramon", "Ricardo", -3);
+        //DataBaseInteraction.changeRelationshipValue("Ramon", "Ricardo", -3);
+
+        TextCheck.processText("Hola buenos, dias");
         System.out.println("Hola");
     }
 }
